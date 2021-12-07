@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.surveyBox{
+    background-color: rgb(189, 189, 189);
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 60px;
+}
+
+.inputLines{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.inputLines >input{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.inputLines >select{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.inputLines > textarea{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+button{
+    font-size: 20px;
+    padding: 15px;
+    background-color:rgb(90, 199, 193);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(38, 201, 255);
+    color: ghostwhite;
+}
+
+
+.infoDetails{
+    font-size: 30px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+p > span{
+    color: ghostwhite;
+}
+
+button > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.messageBox{
+    height: 100px;
+    overflow: auto;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.gameSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rigthSide{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.myGame{
+    margin: 10px;
+}
+
+.myGame > img{
+    width: 900px;
+}
+
+.myPoints{
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.otherPlayers{
+
+}
+
+.otherPlayers > div>img{
+    width: 300px;
+    margin: 10px;
+}
+
+.otherPlayers > div{
+    border: solid 2px rgb(180, 180, 180);
+    margin: 15px;
+}
+
+.otherPlayers > div > p{
+    background-color: grey;
+    padding: 20px;
+    margin:0;
+}
+

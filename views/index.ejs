@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+    <title>Dojo Survey</title>
+    </head>
+    <body>
+        <main>
+            <section class="gameSection">
+                <div class="myGame">
+                    <img src="/img/pacman-game.png" alt="">
+                    <p class="myName"></p>
+                </div>
+                <div class="rigthSide">
+                    <div class="myPoints">My points</div>
+                    <div class="otherPlayers">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="surveyBox">
+            <div class="box">
+                <div class="messageBox">
+                </div>
+            </div>
+            <form class="messageForm">
+                <div class="inputLines">
+                    <label for="name">
+                        Message:
+                    </label>
+                    <input type="text" id="message" name="message" placeholder="Enter your message here" />
+                </div>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </section>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type ="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+</html>
