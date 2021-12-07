@@ -1,2 +1,2 @@
-# Assignment: Group Chat
-Create a simple app where multiple people can go to your nodeJS app and start chatting with each other. You could connect to your web app from multiple browsers (one from Safari, one from Firefox, one from Chrome for example) to mimic multiple people visiting your site. Use javascript 'prompt' to get the user's name. Your chat board should update in real time and even show all the chats that occurred before the user joined the room.
+# Assignment: Multiplayer PacMan
+You are now ready to create any multiplayer game that you can imagine!  In this assignment, you'll create a place where people can play pac man and see other players who are also playing the game! 
